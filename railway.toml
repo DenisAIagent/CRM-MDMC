@@ -2,7 +2,7 @@
 builder = "NIXPACKS"
 
 [deploy]
-startCommand = "npm start"
+startCommand = "node server-debug.cjs"
 healthcheckPath = "/health"
 healthcheckTimeout = 120
 
