@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node server-debug.cjs",
-    "start:simple": "node server.js"
+    "start:simple": "node server.js",
+    "start:backend": "node server-backend.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
@@ -17,6 +18,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "@tremor/react": "^3.18.7",
     "autoprefixer": "^10.4.21",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "lucide-react": "^0.525.0",
     "postcss": "^8.5.6",
